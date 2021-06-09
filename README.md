@@ -4,10 +4,11 @@
   **1.to import:**
   
     import numpy as np
-   * can use int,float..any type value
     
   **2. One dimensional array:**
   
+   * can use int,float..any type value
+   
     a = np.array([1,2,3])
   
 **3. Two dimensional array:**
@@ -25,7 +26,7 @@
 	
    * output (2,3) means 2 row 3 column
 	
-**7. to set data type explicitly(automatically the will give us int32):**
+**7. to set data type explicitly(automatically the will give us float):**
 
 	c = np.array([1,2,3],dtype='int32')
    * that means it will take size 32 bit or 4 byte
