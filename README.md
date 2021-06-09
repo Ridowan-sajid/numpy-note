@@ -26,7 +26,7 @@
 	
    * output (2,3) means 2 row 3 column
 	
-**7. to set data type explicitly(automatically the will give us float):**
+**7. to set data type explicitly(automatically they will give us float):**
 
 	c = np.array([1,2,3],dtype='int32')
    * that means it will take size 32 bit or 4 byte
