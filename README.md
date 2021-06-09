@@ -47,7 +47,7 @@
 **11. to get a specific range row:**
 
 	b[0,:]
-**12. to get aspecific range column:**
+**12. to get specific range column:**
 
 	b[:,1] 
 **13. to get more specific:**
@@ -70,7 +70,7 @@
 * d[row,startindex:endindex] = 5
 * means all value of startindex to endindex will be 5.
 
-**17. to change a bunch of value of an array at the same time with different value:**
+**17. to change a bunch of value of an array at the same time with differentce value:**
 
 	d[1,1:4]=[5,8,4]
 
@@ -111,7 +111,7 @@
 **25. any other number matrix:**
 
 	g=np.full([2,2],99)
-* all row and column value will be 99.
+* all row's and column's value will be 99.
  
 **26. full_like:**
 
@@ -128,15 +128,18 @@
 **29. to create an integare base random array:**
 
 	np.random.randint(2,8,size=(2,3))
-* 2,8=random number
+* 2-8=random number range
  
-**30. to create idwntity matrix:**
+**30. to create identity matrix:**
 
 	np.identity(4)
 **31. repeat an array on y axis:**
 
 	arr = np.array([[1, 2, 3]])
 	r1 = np.repeat(arr,4,axis=0)
+	
+* 4=row 
+
 **32. repeat an array on x axis:**
 
 	arr = np.array([[1, 2, 3]])
@@ -189,9 +192,8 @@
 	
 * axis=1 means check on rows individually,axis=0 means check on column individually
 
-	np.min(stats)
-	
-	np.sum(stats)
+		np.min(stats)
+		np.sum(stats)
 
 # Reorganizing arrays:
 
@@ -200,7 +202,7 @@
 	a=np.array([[1,2,3],[4,5,6]])
 	b=a.reshape([3,2])
 	
-* We can reshape 'a' array. But have to maintain shape with value's of a.
+* We can reshape 'a' array. But have to maintain the shape with value's of a.
 
 **40.Vertically stacking vectors:**
 
@@ -223,7 +225,7 @@
 	filedata=filedata.astype('int16')
 	print(filedata)
 	
-* delimiter = to seperate every value from data.txt file.
+* delimiter = to seperate every value which we get from data.txt file.
 * automatically filedata gives us float value. but we want
 * int value that's why we turn float value to int value.
   
