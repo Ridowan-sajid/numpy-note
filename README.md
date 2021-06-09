@@ -29,7 +29,7 @@
 **7. to set data type explicitly(automatically they will give us float):**
 
 	c = np.array([1,2,3],dtype='int32')
-   * that means it will take size 32 bit or 4 byte
+   * that means each value will take size 32 bit or 4 byte
    
 **8. to get size(how much space it takes) of an array:**
 
