@@ -250,7 +250,7 @@
 
 	np.any(filedata>50, axis=0) 
 * it will check every column,,if any column's any value is greater than
-* 50 it will give us true otherwise false.
+* 50 it will gives us true otherwise false.
 * when x=1 it will check on row base.
 * if we use np.all instead of np.any it will gives us true only if 
 * column's or row's all value's are greater than 50.
@@ -260,7 +260,7 @@
 	~((filedata>50) & (filedata<700))
 * &=and,~=not
 
-**48. We can indexing for list:**
+**48. We can indexing from list:**
 
 	a=np.array([1,2,3,4,5,6,7,8,9])
 	print(a[[1,2,6]])
